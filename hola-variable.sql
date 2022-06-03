@@ -1,0 +1,7 @@
+DECLARE 
+    V_NAME VARCHAR(200);
+    BEGIN
+        V_NAME :=('HOLA ESTA ES UNA VARIABLE');
+        DBMS_OUTPUT.PUT_LINE(V_NAME);
+    END;
+/
